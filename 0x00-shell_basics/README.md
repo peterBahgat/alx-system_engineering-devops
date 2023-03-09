@@ -11,3 +11,4 @@ rm /tmp/my_first_directory/betty - "Delete the file betty. The file betty is in 
 rm -r /tmp/my_first_directory - "Delete the directory my_first_directory that is in the /tmp directory and not empty"
 cd - - "changes the working directory to the previous one"
 ls -la . .. /boot - "Write a script that lists all files in the current directory and the parent of the working directory and the /boot directory, in long format"
+file -b /tmp/iamafile - "a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script"
