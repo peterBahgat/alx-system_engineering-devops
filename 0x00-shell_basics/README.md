@@ -17,3 +17,4 @@ cp -u *.html .. - "script that copies all HTML files from the current working di
 mv [A-Z]* /tmp/u/ - "command that moves all files beginning with an uppercase letter to the directory /tmp/u."
 rm *~ - "The command to delete all files in the current working directory that end with the character ~"
 mkdir -p welcome/to/school - "the creation of nested directories with a single command"
+ls -1apv - "list all files and directories of the current directory, separated by new lines, directories ending with a slash /, files and directories starting with a dot ., with verbose output that shows additional information"
