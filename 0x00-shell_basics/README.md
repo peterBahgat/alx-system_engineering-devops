@@ -14,3 +14,4 @@ ls -la . .. /boot - "Write a script that lists all files in the current director
 file /tmp/iamafile - "a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script"
 ln -s /bin/ls __ls__ - "Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory"
 cp -u *.html .. - "script that copies all HTML files from the current working directory to the parent directory, but only if the files don't exist in the parent directory or are newer than the ones in the parent directory"
+mv [A-Z]* /tmp/u/ - "command that moves all files beginning with an uppercase letter to the directory /tmp/u."
