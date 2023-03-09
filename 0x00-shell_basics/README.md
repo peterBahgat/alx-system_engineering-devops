@@ -10,3 +10,4 @@ mv /tmp/betty /tmp/my_first_directory/ - "Move the file betty from /tmp/ to /tmp
 rm /tmp/my_first_directory/betty - "Delete the file betty. The file betty is in /tmp/my_first_directory"
 rm -r /tmp/my_first_directory - "Delete the directory my_first_directory that is in the /tmp directory and not empty"
 cd - - "changes the working directory to the previous one"
+ls -la cd .. ls -la cd /boot ls -la - "script that lists all files in the current directory and the parent of the working directory and the /boot directory, in long format"
