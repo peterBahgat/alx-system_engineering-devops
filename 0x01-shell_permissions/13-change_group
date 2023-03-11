@@ -1,2 +1,2 @@
 #!/bin/bash
-chown --reference=file1 file2
+sudo chgrp school ./hello
