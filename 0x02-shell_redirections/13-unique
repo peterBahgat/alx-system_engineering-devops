@@ -1,2 +1,2 @@
 #!/bin/bash
-sort file.txt | uniq -u | sort
+echo -e "apple\nbanana\ncherry\nbanana\ncherry" | sort | uniq -u | sort
